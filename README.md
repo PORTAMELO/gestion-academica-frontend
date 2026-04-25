@@ -33,7 +33,6 @@ Aplicación web desarrollada en React que consume la API REST de Gestión Acadé
 - TypeScript
 - Vite
 - Axios
-- React Router DOM
 - Docker + Nginx
 
 ### Requisitos previos
