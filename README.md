@@ -11,8 +11,11 @@ cd gestion-academica-frontend
 ```
 **3. Configurar la URL del backend en el archivo .env**
 ```
-VITE_API_URL=http://<IP_DEL_BACKEND>:8080/api
+VITE_API_URL=http://localhost:8080/api
+FRONTEND_PORT=80
 ```
+> Si el backend corre en otra máquina, reemplaza `localhost` con la IP correspondiente.
+
 **4. Levantar el contenedor**
 ```bash
 docker compose up -d --build
