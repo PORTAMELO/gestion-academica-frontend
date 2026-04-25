@@ -149,7 +149,7 @@ const NotasPage: React.FC = () => {
                         {n.valor.toFixed(1)}
                       </span>
                     </td>
-                    <td>{n.fecha_registro?.split('T')[0] ?? '—'}</td>
+                    <td>{n.fechaRegistro?.split('T')[0] ?? '—'}</td>
                   </tr>
                 ))}
               </tbody>

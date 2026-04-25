@@ -16,7 +16,7 @@ export interface Materia {
 export interface Nota {
   id?: number;
   valor: number;
-  fecha_registro?: string;
+  fechaRegistro?: string;
   alumno: Alumno;
   materia: Materia;
 }
