@@ -3,7 +3,7 @@
 
 **1. Clonar el repositorio**
 ```bash
-git clone <url-repositorio-frontend>
+git clone https://github.com/PORTAMELO/gestion-academica-frontend
 ```
 **2. Entrar a la carpeta**
 ```bash
