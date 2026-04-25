@@ -27,7 +27,7 @@ Aplicación web desarrollada en React que consume la API REST de Gestión Acadé
 
 ### Tecnologías
 - React 19
-- JavaScript
+- TypeScript
 - Vite
 - Axios
 - React Router DOM
