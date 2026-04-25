@@ -3,7 +3,7 @@ export interface Alumno {
   nombre: string;
   apellido: string;
   email: string;
-  fecha_nacimiento: string;
+  fechaNacimiento: string;
 }
 
 export interface Materia {

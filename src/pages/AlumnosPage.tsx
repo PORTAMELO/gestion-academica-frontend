@@ -3,7 +3,7 @@ import { alumnosService } from '../services/api';
 import type { Alumno } from '../types';
 import './CrudPage.css';
 
-const empty: Alumno = { nombre: '', apellido: '', email: '', fecha_nacimiento: '' };
+const empty: Alumno = { nombre: '', apellido: '', email: '', fechaNacimiento: '' };
 
 const AlumnosPage: React.FC = () => {
   const [alumnos, setAlumnos] = useState<Alumno[]>([]);
@@ -92,7 +92,7 @@ const AlumnosPage: React.FC = () => {
             </div>
             <div className="form-group">
               <label>Fecha de Nacimiento</label>
-              <input required type="date" value={form.fecha_nacimiento} onChange={e => setForm({ ...form, fecha_nacimiento: e.target.value })} />
+              <input required type="date" value={form.fechaNacimiento} onChange={e => setForm({ ...form, fechaNacimiento: e.target.value })} />
             </div>
             <div className="form-actions">
               <button type="button" className="btn-ghost" onClick={() => setShowForm(false)}>Cancelar</button>
@@ -126,7 +126,7 @@ const AlumnosPage: React.FC = () => {
                   <td>{a.nombre}</td>
                   <td>{a.apellido}</td>
                   <td>{a.email}</td>
-                  <td>{a.fecha_nacimiento}</td>
+                  <td>{a.fechaNacimiento}</td>
                   <td>
                     <div className="action-btns">
                       <button className="btn-edit" onClick={() => handleEdit(a)}>✏️ Editar</button>
